@@ -1,20 +1,19 @@
-Make better use of the screen space while doing the NYTimes crossword puzzle. Inspired by the layout of AcrossLite, this Chrome extension aims to utilize viewport space more efficiently by increasing the prominence of the puzzle grid and the clues, and by reducing the real estate taken of non-puzzle items on the screen (e.g. headers, banners, puzzle title, etc). 
+This simple Chrome extension makes better use of screen space while doing the New York Times crossword puzzle. 
+Inspired by the layout of AcrossLite, you'll notice a more prominent and easier-to-read puzzle grid and reduced size of non-puzzle items (e.g. headers, banners, puzzle title, etc). 
 
 #### Features:
 + Remove and collapse distracting banners including ads, options, and page headers
 + Give more space to the puzzle grid, allowing it to expand with your browser
-+ Collapse puzzle details such as title, date, and author in a single line, and reduce font size
-+ Display the puzzle toolbar (e.g. Settings, Rebus, Reset buttons) in single line with the puzzle details
++ Collapse puzzle details (e.g. title, date, and author) along with the puzzle toolbar (e.g. Settings, Rebus, Reset buttons) into a single line
 + Re-orient the Across and Down clue boxes to be stacked instead of side-by-side (configurable via the options menu)
 
 #### Screenshots:
 
-##### Enabled:
+With the extension enabled:
 ![Extension Enabled](screenshots/extension-enabled.png)
 
-##### Disabled:
+With the extention disabled:
 ![Extension Disabled](screenshots/extension-disabled.png)
 
-
-#### Outstanding Items
+#### To Do
 + Test on a puzzle with a note

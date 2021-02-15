@@ -1,6 +1,6 @@
 {
   "name": "Crossword Plus",
-  "description": "Make better use of the screen space while doing the New York Times crossword puzzle.",
+  "description": "Make better use of screen space while doing the New York Times crossword puzzle.",
   "version": "1.0.0",
   "permissions": [
     "activeTab",
