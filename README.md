@@ -4,7 +4,7 @@ Make better use of the screen space while doing the NYTimes crossword puzzle. In
 + Remove and collapse distracting banners including ads, options, and page headers
 + Give more space to the puzzle grid, allowing it to expand with your browser
 + Collapse puzzle details such as title, date, and author in a single line, and reduce font size
-+ Display the puzzle toolbar with (e.g. Settings, Rebus, Reset buttons) flush with the puzzle details
++ Display the puzzle toolbar (e.g. Settings, Rebus, Reset buttons) in single line with the puzzle details
 + Re-orient the Across and Down clue boxes to be stacked instead of side-by-side (configurable via the options menu)
 
 #### Screenshots:
