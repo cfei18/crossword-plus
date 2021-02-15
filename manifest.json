@@ -3,7 +3,6 @@
   "description": "Make better use of screen space while doing the New York Times crossword puzzle.",
   "version": "1.0.0",
   "permissions": [
-    "activeTab",
     "storage"
   ],
   "icons": {
@@ -17,8 +16,7 @@
   },
   "content_scripts": [{
     "js": ["js/content.js"],
-    "css": ["styles.css"],
-    "matches": ["https://www.nytimes.com/crosswords/game/*"]
+    "css": ["styles.css"]
   }],
   "options_page": "options.html",
   "options_ui": {
