@@ -16,7 +16,8 @@
   },
   "content_scripts": [{
     "js": ["js/content.js"],
-    "css": ["styles.css"]
+    "css": ["styles.css"],
+    "matches": ["https://www.nytimes.com/crosswords/game/*"]
   }],
   "options_page": "options.html",
   "options_ui": {
