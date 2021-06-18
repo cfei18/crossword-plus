@@ -1,7 +1,7 @@
 {
   "name": "Crossword Plus",
   "description": "Make better use of screen space while doing the New York Times crossword puzzle.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "permissions": [
     "storage"
   ],
@@ -17,7 +17,7 @@
   "content_scripts": [{
     "js": ["js/content.js"],
     "css": ["styles.css"],
-    "matches": ["https://www.nytimes.com/crosswords/game/*"]
+    "matches": ["https://www.nytimes.com/crosswords","https://www.nytimes.com/crosswords/game/*"]
   }],
   "options_page": "options.html",
   "options_ui": {
