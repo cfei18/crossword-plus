@@ -1,6 +1,6 @@
 function applyOptions(items) {
   const clueOrientation = items.clueOrientation;
-  const selector = "div[class^='ClueList-wrapper']";
+  const selector = "section[class^='xwd__layout--cluelists']";
   if (clueOrientation === 'vertical') {
     const elements = document.querySelectorAll(selector);
     elements.forEach(e => {
@@ -18,7 +18,9 @@ function refreshOptions() {
   chrome.storage.sync.get({
     clueOrientation: 'horizontal',
   }, function (items) {
-    applyOptions(items);
+    setTimeout(() => {
+      applyOptions(items);
+    }, 1000);
   });
 }
 

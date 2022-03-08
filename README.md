@@ -5,7 +5,7 @@ Inspired by the layout of AcrossLite, you'll notice a more prominent and easier-
 + Remove and collapse distracting banners including ads, options, and page headers
 + Give more space to the puzzle grid, allowing it to expand with your browser
 + Collapse puzzle details (e.g. title, date, and author) along with the puzzle toolbar (e.g. Settings, Rebus, Reset buttons) into a single line
-+ Re-orient the Across and Down clue boxes to be stacked instead of side-by-side (configurable via the options menu)
++ Re-orient the Across and Down clue lists to be stacked instead of side-by-side (configurable via the options menu)
 
 #### Screenshots:
 

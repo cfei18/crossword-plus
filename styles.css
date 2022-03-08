@@ -2,112 +2,135 @@
     display: none;
 }
 
-div[class^='AlternatePuzzles'] {
-    display: none;
+.pz-nav {
+    position: unset !important;
 }
 
-div[class^='Header-headerWrapper'] {
-    position: relative;
+.pz-section+.pz-section {
+    margin-top: 0 !important;
 }
 
-div[class^='Header-headerBuffer'] {
-    display: none;
+div[class^='pz-game-toolbar'] {
+    border-top: 0;
 }
 
-div[class^='PuzzleHeader-row'] {
+div[class^='pz-row pz-game-title-bar'] {
     margin: 6px 0;
+    padding: 0;
 }
 
-div[class^='PuzzleDetails-title'] {
+div[class^='xwd__details--title'] {
     font-size: 1rem;
     line-height: normal;
 }
 
-div[class^='PuzzleDetails-date'] {
+div[class^='xwd__details--date'] {
     font-size: 1rem;
 }
 
-div[class^='PuzzleDetails-byline'] {
+div[class^='xwd__details--byline'] {
     display: inline-block;
     margin-left: 16px;
 }
 
-div[class^='PuzzleHeader-toolsContainer'] {
+div[class^='xwd__header--tools-container'] {
     display: none;
 }
 
-header[class^='PuzzleHeader-wrapper'] {
+header[class^='xwd__header--wrapper'] {
     margin: 0;
 }
 
-div[class^='PuzzleHeader-puzzleDetailsContainer'] {
+div[class^='xwd__header--puzzle-details-container'] {
     width: auto !important;
     padding: 0;
     margin: 0 0 0 20px !important;
 }
 
-div[class^='Layout-unveilable'] {
+div[class^='pz-game-screen'] {
     position: relative;
     top: -48px;
 }
 
-div[class^='Toolbar-wrapper'] {
+div[class^='xwd__toolbar--wrapper'] {
     background: none;
 }
 
-ul[class^='Toolbar-tools'] {
+ul[class^='xwd__toolbar--tools'] {
     justify-content: flex-end;
 }
 
-li[class^='Timer-button'] {
+li[class^='xwd__tool--button xwd__timer--button'] {
     margin: 0;
     flex-grow: 0;
 }
 
-div[class^='ClueBar-bar'] {
+div[class^='xwd__clue-bar-desktop--bar'] {
     font-size: 1.85em;
     height: 60px;
     margin-bottom: 0;
 }
 
-div[class^='ClueList-wrapper'].horizontal {
-    height: 50%;
-    width: 100%;
-    border: 1px solid #e6e6e6;
-    padding: 2px 8px;
+section[class^='xwd__layout--cluelists'] {
+    width: 50%; /* Vertical mode */
+    max-height: none;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #e6e6e6;
 }
 
-div[class^='ClueBar-number'] {
+section[class^='xwd__layout--cluelists'].horizontal {
+    width: 40%;
+    max-height: none;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #e6e6e6;
+}
+
+section[class^='xwd__layout--cluelists'].horizontal div[class^='xwd__clue-list--wrapper'] {
+    height: 50%;
+    width: 100%;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    padding: 2px 0px;
+}
+
+section[class^='xwd__layout--cluelists'].horizontal div[class^='xwd__clue-list--wrapper'] .xwd__clue-list--title {
+    height: 28px;
+    padding-left: 8px;
+}
+
+section[class^='xwd__layout--cluelists'].horizontal div[class^='xwd__clue-list--wrapper'] .xwd__clue-list--list {
+    height: calc(100% - 28px);
+}
+
+div[class^='xwd__clue-bar-desktop--number'] {
     font-size: 1.2rem;
     width: auto;
     /*border-right: 1px solid rgba(0,0,0, 0.1);*/
 }
 
-div[class^='ClueBar-text'] {
+div[class^='xwd__clue-bar-desktop--text'] {
     line-height: normal;
     padding: 6px 10px 6px 10px;
 }
 
-article[class^='Layout-puzzle'] {
+article#puzzle {
     height: calc(100vh - 45px);
     max-height: none;
 }
 
-section[class^='Layout-clueBarAndBoard'] {
+section[class^='xwd__layout_clueBarAndBoard'] {
     width: 60%;
 }
 
-section[class^='Layout-clueLists'] {
-    width: 40%;
-    max-height: none;
-}
-
-div[class^='Board-board'] {
+div[class^='xwd__board'] {
     border-left: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
 }
 
-div[class^='Board-boardContent'] {
+div[class^='xwd__board--content'] {
     padding: 10px 0;
     top: 0;
     bottom: 0;
